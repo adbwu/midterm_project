@@ -5,7 +5,7 @@ $(() => {
 
   function updateHeader() {
 
-    $pageHeader.find("#page-header__user-links").remove();
+    $pageHeader.find("#login-links").remove();
     let userLinks = `
     <div id="header">
     <h1>Wiki Map</h1>
