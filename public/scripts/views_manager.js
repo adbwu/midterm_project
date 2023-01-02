@@ -6,7 +6,7 @@
   window.views_manager = {};
 
   window.views_manager.show = function(item) {
-    $aboutPage.detach();
+    // $aboutPage.detach();
 
     switch (item) {
       case 'about':
