@@ -46,4 +46,12 @@ $(() => {
   $('header').on('click', '.explore_button', function() {
     views_manager.show('explore');
   });
+
+  $('header').on('click', '.add_poi_button', function() {
+    views_manager.show('add-poi');
+  });
+
+  $('header').on('click', '.favorites_button', function() {
+    views_manager.show('favorites');
+  });
 });

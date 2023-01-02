@@ -9,6 +9,8 @@
     $aboutPage.detach();
     $myMaps.detach();
     $explorePage.detach();
+    $addPOI.detach();
+    $favoritesPage.detach();
 
     switch (item) {
       case 'about':
@@ -19,6 +21,12 @@
         break;
       case 'explore':
         $explorePage.appendTo($main);
+        break;
+      case 'add-poi':
+        $addPOI.appendTo($main);
+        break;
+      case 'favorites':
+        $favoritesPage.appendTo($main);
         break;
       case 'error': {
         const $error = $(`<p>${arguments[1]}</p>`);
