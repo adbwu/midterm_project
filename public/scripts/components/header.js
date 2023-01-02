@@ -38,4 +38,12 @@ $(() => {
   $('header').on('click', '.about_button', function() {
     views_manager.show('about');
   });
+
+  $('header').on('click', '.my_maps_button', function() {
+    views_manager.show('my-maps');
+  });
+
+  $('header').on('click', '.explore_button', function() {
+    views_manager.show('explore');
+  });
 });
