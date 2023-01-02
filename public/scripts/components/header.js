@@ -19,11 +19,11 @@ $(() => {
     </div>
     <nav id="nav-bar" class="nav-bar">
       <ul>
-        <li class="about">About</li>
-        <li class="my_maps_button">My Maps</li>
-        <li class="explore_button">Explore</li>
-        <li class="add_poi_button">Add Poi</li>
-        <li class="favorites_button">Favorites</li>
+        <li class="nav_button about">About</li>
+        <li class="nav_button my_maps_button active">My Maps</li>
+        <li class="nav_button explore_button">Explore</li>
+        <li class="nav_button add_poi_button">Add POI</li>
+        <li class="nav_button favorites_button">Favorites</li>
       </ul>
     </nav>
     `
